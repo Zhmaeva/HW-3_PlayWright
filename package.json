@@ -1,0 +1,17 @@
+{
+  "name": "playwright",
+  "version": "1.0.0",
+  "description": "1. Подготовлены тестовые данные:\r    - создан файл `user.js` и добавлен в `.gitignore`\r 2. Создан тест «Успешная авторизация».\r 3. Ожидаемый результат получен:\r    - открылась страница профиля\r 4. Создан тест «Неуспешная авторизация».\r    - запущен тест с невалидными данными для авторизации",
+  "main": "user.js",
+  "scripts": {
+    "test": "playwright test",
+    "codegen": "npx playwright codegen netology.ru"
+  },
+  "keywords": [],
+  "author": "zhmaeva",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.45.1",
+    "@types/node": "^20.14.10"
+  }
+}
