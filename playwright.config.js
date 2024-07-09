@@ -26,8 +26,7 @@ module.exports = defineConfig({
   use: {
     launchOptions: {
       headless: false,
-      slowMo: 5000,
-      devtools: true
+      slowMo: 3000
     },
     trace: 'on-first-retry',
   },
